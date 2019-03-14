@@ -1,0 +1,17 @@
+<div class="clearfix editor-wrapper">
+  <span class="fl bt">透明度</span>
+  <div class="rich-selector fl">
+    <!--<app-minus-plus [data]="data" [type]="'opacity'" [title]="title"-->
+    <!--(onChange)="onOpacityeChange($event)"></app-minus-plus>-->
+    <div class="rang-slider-wrapper">
+      <div id="percentContainer" class="percent-container" (click)="countPercent($event)">
+        <div id="colorLine" class="color-line"></div>
+        <div id="optHandle" class="opt-handle" (mousedown)="mousedown($event)">
+          <div class="percent-txt">{{width}}</div>
+          <span data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"
+                class="glyphicon glyphicon-menu-hamburger"></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+

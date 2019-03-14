@@ -1,0 +1,48 @@
+.rang-slider-wrapper {
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.percent-container {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.color-line {
+    position: absolute;
+    height: 100%;
+    border-radius: 3px 0 0 3px;
+}
+
+.opt-handle {
+    position: absolute;
+    top: -4px;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #666;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.opt-handle .percent-txt {
+    position: absolute;
+    top: 15px;
+    left: -5px;
+    color: #ffffff;
+}
+
+.opt-handle span {
+    top: -1px;
+    transform: rotate(90deg);
+}
