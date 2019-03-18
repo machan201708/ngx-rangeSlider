@@ -33,7 +33,8 @@ export class RangeSliderComponent implements OnInit, OnChanges {
     console.log(changes);
     const data = changes['data'];
     if (data && data.currentValue) {
-      this.width = data.currentValue + '%';
+      const value = data.currentValue || 100;
+      this.width = value + '%';
     }
     this.initValue();
   }
@@ -70,7 +71,6 @@ export class RangeSliderComponent implements OnInit, OnChanges {
       }
       this.width = percent + '%';
       this.formatStyles();
-      this.data.opacity = percent / 100;
       this.valueChange.emit(this.data);
     };
 
