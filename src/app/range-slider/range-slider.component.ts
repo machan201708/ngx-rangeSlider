@@ -55,7 +55,7 @@ export class RangeSliderComponent implements OnInit, OnChanges {
   }
 
   mousedown(event: any) {
-    const percentContainerLeft = (document.documentElement.scrollWidth || document.body.scrollWidth),
+    const percentContainerLeft = this.percentContainer.offsetLeft,
       percentContainerWidth = this.percentContainer.offsetWidth,
       percentContainerRight = percentContainerWidth + percentContainerLeft;
     // console.log(percentContainerLeft, percentContainerRight);
@@ -71,7 +71,7 @@ export class RangeSliderComponent implements OnInit, OnChanges {
       }
       this.width = percent + '%';
       this.formatStyles();
-      this.valueChange.emit(this.data);
+      // this.valueChange.emit(this.data);
     };
 
     document.onmouseup = () => {
@@ -82,7 +82,7 @@ export class RangeSliderComponent implements OnInit, OnChanges {
 
   countPercent(event: any) {
     // console.log(event);
-    const percentContainerLeft = (document.documentElement.scrollWidth || document.body.scrollWidth) - 207,
+    const percentContainerLeft = this.percentContainer.offsetLeft,
       percentContainerWidth = this.percentContainer.offsetWidth,
       percentContainerRight = percentContainerWidth + percentContainerLeft,
       left = event.clientX;
@@ -96,8 +96,7 @@ export class RangeSliderComponent implements OnInit, OnChanges {
     }
     this.width = percent + '%';
     this.formatStyles();
-    this.data.opacity = percent / 100;
-    this.valueChange.emit(this.data);
+    // this.valueChange.emit(this.data);
   }
 
 }
