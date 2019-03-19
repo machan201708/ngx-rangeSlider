@@ -16,7 +16,7 @@ export const RANGEMODE = {
 export class RangeSliderComponent implements OnInit, OnChanges {
   @Input() data;
   @Input() mode: number = RANGEMODE.single;
-  @Input() isPercent: boolean = true; //是否为百分比显示
+  @Input() isPercent: boolean = true; // 是否为百分比显示
   @Input() max: number = 100;
   @Input() min: number = 0;
 
@@ -59,8 +59,8 @@ export class RangeSliderComponent implements OnInit, OnChanges {
   }
 
   initValue() {
-    if (this.mode === 2) { //两端操作模式
-    } else { //默认单操作
+    if (this.mode === RANGEMODE.double) { // 两端操作模式
+    } else {   // 默认单操作
       if (this.isPercent) {
 
       }

@@ -1,0 +1,20 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "lib": {
+    "entryFile": "public_api.ts",
+    "externals": {
+      "@angular/animations": "ng.animations",
+      "@angular/common": "ng.common",
+      "@angular/compiler": "ng.compiler",
+      "@angular/core": "ng.core",
+      "@angular/forms": "ng.forms",
+      "@angular/http": "ng.http",
+      "@angular/platform-browser": "ng.platform-browser",
+      "@angular/platform-browser-dynamic": "ng.platform-browser-dynamic",
+      "@angular/router": "ng.router",
+      "core-js": "core-js",
+      "rxjs": "rxjs",
+      "zone.js": "zone.js"
+    }
+  }
+}
