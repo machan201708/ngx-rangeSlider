@@ -10,7 +10,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "main": "./dist/bundles/ngx-rangesliedr.umd.js",
+  "module": "./dist/@viola/ngx-rangeslider.es5.js",
+  "es2015": "./dist/@viola/ngx-rangeslider.js",
+  "typings": "./dist/ngx-rangeslider.d.ts",
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",

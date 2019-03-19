@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-range-slider": {
+    "ngx-rangeslider": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-range-slider",
+            "outputPath": "dist/ngx-rangeslider",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-range-slider:build"
+            "browserTarget": "ngx-rangeslider:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-range-slider:build:production"
+              "browserTarget": "ngx-rangeslider:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-range-slider:build"
+            "browserTarget": "ngx-rangeslider:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "ngx-range-slider-e2e": {
+    "ngx-rangeslider-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "targets": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ngx-range-slider:serve"
+            "devServerTarget": "ngx-rangeslider:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ngx-range-slider:serve:production"
+              "devServerTarget": "ngx-rangeslider:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "ngx-range-slider"
+  "defaultProject": "ngx-rangeslider"
 }
