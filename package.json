@@ -1,5 +1,5 @@
 {
-  "name": "ngx-range-slider",
+  "name": "@viola/ngx-rangeSlider",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
