@@ -49,5 +49,9 @@
     "tslint": "~5.11.0",
     "typescript": "~2.9.2",
     "ng-packagr": "^4.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/machan201708/ngx-rangeSlider-ing.git"
   }
 }
