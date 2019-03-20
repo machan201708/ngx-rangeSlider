@@ -1,5 +1,5 @@
 {
-  "name": "@machan201708/ngx-rangeSlider",
+  "name": "ngx-rangeSlider-drag",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
