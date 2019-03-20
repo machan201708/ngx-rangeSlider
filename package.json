@@ -1,5 +1,5 @@
 {
-  "name": "@viola/ngx-rangeSlider",
+  "name": "@machan201708/ngx-rangeSlider",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -53,5 +53,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/machan201708/ngx-rangeSlider.git"
-  }
+  },
+  "homepage": "https://github.com/machan201708/ngx-rangeSlider"
 }
