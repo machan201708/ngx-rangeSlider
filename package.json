@@ -1,5 +1,5 @@
 {
-  "name": "ngx-rangeSlider-drag",
+  "name": "ngx-rangeslider-ch",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -14,7 +14,6 @@
   "module": "./dist/@viola/ngx-rangeslider.es5.js",
   "es2015": "./dist/@viola/ngx-rangeslider.js",
   "typings": "./dist/ngx-rangeslider.d.ts",
-  "private": false,
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
@@ -55,5 +54,6 @@
     "type": "git",
     "url": "https://github.com/machan201708/ngx-rangeSlider.git"
   },
+  "author": "machan",
   "homepage": "https://github.com/machan201708/ngx-rangeSlider"
 }
